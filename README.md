@@ -23,4 +23,4 @@ Build and test software of any size, quickly and reliably.
 
 Additional information available [here](https://github.com/bazelbuild/bazel).
 
->**Note:**Artifacts available in this repository are targeted for `s390x` architecture.
+>**Note:** Artifacts available in this repository are targeted for `s390x` architecture.
