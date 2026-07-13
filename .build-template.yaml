@@ -5,6 +5,5 @@ overrides:
       version: 8.4.1
       build_script:
         repo_name: linux-on-ibm-z-scripts
-        docker_required: true
         path: src/build.sh
-        docker_image: dind:s390x
+        docker_image: ubuntu:22.04
