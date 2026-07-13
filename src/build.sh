@@ -1,8 +1,6 @@
 #!/bin/bash
-set -e -o pipefail
 read -ra arr <<< "$@"
 version=${arr[1]}
-trap 0 1 2 ERR
 # Extract DISTRO details for tagging
 if [ -f /etc/os-release ]; then
     . /etc/os-release
